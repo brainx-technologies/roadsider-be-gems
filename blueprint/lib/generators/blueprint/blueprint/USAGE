@@ -1,0 +1,8 @@
+Description:
+    Generates a blueprint for a model with the given name.
+
+Example:
+    rails generate blueprint:blueprint user
+
+    This will create:
+        app/blueprints/user_blueprint.rb

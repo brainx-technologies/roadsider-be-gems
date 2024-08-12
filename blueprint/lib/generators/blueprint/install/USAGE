@@ -1,0 +1,8 @@
+Description:
+    Generates an application blueprint as a starting point for your application.
+
+Example:
+    rails generate blueprint:install
+
+    This will create:
+        app/blueprints/application_blueprint.rb
