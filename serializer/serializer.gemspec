@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Serialize anything to hash or array."
   spec.description   = spec.summary
-  spec.homepage      = "/be-gems"
+  spec.homepage      = "http://website.com"
   spec.required_ruby_version = ">= 2.5.0"
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activesupport", ">= 5.0.0"
   spec.add_dependency "activemodel", ">= 5.0.0"
   spec.add_dependency "activerecord", ">= 5.0.0"
-  
+
   spec.add_runtime_dependency "blueprint"
 
   spec.add_development_dependency "bundler", "~> 2.1"

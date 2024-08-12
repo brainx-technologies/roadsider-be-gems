@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Order ActiveRecord by attributes."
   spec.description   = spec.summary
-  spec.homepage      = "/be-gems"
+  spec.homepage      = "http://website.com"
   spec.required_ruby_version = ">= 2.5.0"
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
